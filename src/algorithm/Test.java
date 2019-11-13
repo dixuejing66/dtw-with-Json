@@ -22,7 +22,7 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		DTW dtw = new DTW();
 		Test test = new Test();
-		File folder = new File("/dtw/Json");
+		File folder = new File("/dtw-with-Json/Json");
 		if (folder.isDirectory()) {
 			File[] files = folder.listFiles();
 			for (int i = 0; i < files.length; i++) {
